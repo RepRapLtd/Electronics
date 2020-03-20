@@ -1,0 +1,96 @@
+<?php
+  echo "hello world, I'm PHP running on my Onion Omega!<br>";
+
+$answer = shell_exec("python blinkgnd.py");
+echo $answer."</br>";
+?>
+import onionGpio
+
+import time
+
+#GPIO Pin Numbers
+P1=0
+
+G0=onionGpio.OnionGpio(P1)
+G0.setOutputDirection(0)
+
+G0.setValue(0)    
+
+<?php
+
+$answer = shell_exec("python LEDon.py");
+echo $answer."</br>";
+echo "LEDon"
+?>
+import onionGpio
+
+import time
+
+#GPIO Pin Numbers
+P1=0
+
+G0=onionGpio.OnionGpio(P1)
+G0.setOutputDirection(0)
+
+G0.setValue(1)
+
+print("This is from within Python")
+
+import onionGpio
+
+import time
+
+#GPIO Pin Numbers
+P1=0
+#P2=6
+
+G0=onionGpio.OnionGpio(P1)
+G0.setOutputDirection(0)
+#G1=onionGpio.OnionGpio(P2)
+#G1.setOutputDirection(0)
+
+
+
+
+
+for x in range (3):
+
+    # printing the start time
+    print("The time of start of loop : ")
+    print(time.ctime())
+    print("<br>")
+    G0.setValue(1)
+    #G1.setValue(0)
+    # using sleep() to hault the code execution
+    time.sleep(1)
+
+
+    # printing the end time
+    print("The time of end of loop : ")
+    print(time.ctime())
+    print("<br>")
+    G0.setValue(0)    
+    #G1.setValue(1)
+    # using sleep() to hault the code execution
+    time.sleep(1)
+
+G0.setValue(0)
+#G1.setValue(0)
+<!doctype html>
+<html style="height:100%;">
+	<head>
+		<title id="title">OnionOS</title>
+        <meta charset="utf-8" />
+	</head>
+	<body>
+Hello World!
+	</body>
+
+</html>
+<?php
+  echo "hello world, I'm PHP running on my Onion Omega!<br>";
+
+$answer = shell_exec("python blinkgnd.py");
+echo $answer."</br>";
+?>
+

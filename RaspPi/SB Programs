@@ -1,0 +1,28 @@
+LEDonPrintout.py 
+Works, but turns LED off
+
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BOARD)
+#GPIO.setwarnings(False)
+GPIO.setup(37, GPIO.IN)
+state = GPIO.input(37)
+if (state is True):
+        print("LED on")
+else:
+        print("LED off")
+
+LEDon.py
+
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BOARD)
+GPIO.setwarnings(False)
+GPIO.setup(37, GPIO.OUT)
+GPIO.output(37, 1)
+f= open("index.html","r")
+content = f.read()
+print(content)
+
+f= open("state","w")
+f.write("on")
+f.close()
+

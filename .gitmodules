@@ -1,0 +1,6 @@
+[submodule "Eagle/Adafruit-Eagle-Library"]
+	path = Eagle/Adafruit-Eagle-Library
+	url = https://github.com/adafruit/Adafruit-Eagle-Library.git
+[submodule "Duet"]
+	path = Duet
+	url = https://github.com/T3P3/Duet.git

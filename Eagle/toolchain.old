@@ -1,0 +1,19 @@
+SHIFT -> to program w. ISP
+
+in Arduino ISP:
+digitalWrite(RESET, ((reset && rst_active_high) || (!reset && !rst_active_high)) ? LOW : HIGH);
+
+http://www.instructables.com/id/Program-an-ATtiny-with-Arduino/?ALLSTEPS
+
+http://highlowtech.org/?p=1229
+
+https://forum.arduino.cc/index.php?topic=322068.0
+
+http://kevinrye.net/index_files/attiny_programming_shield.php
+
+
+Modified to add:
+
+12v input so you can program pin 1
+Single sided board with jumpers so it can be easilly milled
+All data pins output to the header
