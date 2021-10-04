@@ -30,6 +30,10 @@ K Arduino UNO R3 Microcontroller Module Atmel AVR USB
 F https://www.arduino.cc/en/Main/arduinoBoardUno
 $ENDCMP
 #
+$CMP DRV11873
+D 3 Phase motor driver
+$ENDCMP
+#
 $CMP LM358
 D Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8
 K dual opamp
