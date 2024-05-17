@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CPC1966Y
+#/689022/747328/2.49/4/4/Relay or Contactor
+DEF CPC1966Y K 0 30 Y Y 1 F N
+F0 "K" 1050 300 50 H V L CNN
+F1 "CPC1966Y" 1050 200 50 H V L CNN
+F2 "CPC1966Y" 1050 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/4bd38bcd53ac06cbf93d43ee226943fd.pdf" 1050 0 50 H I L CNN
+F4 "IXYS 3 A rms SPNO Solid State Relay, Zero Crossing, PCB Mount SCR, 240 V ac Maximum Load" 1050 -100 50 H I L CNN "Description"
+F5 "10" 1050 -200 50 H I L CNN "Height"
+F6 "LITTELFUSE" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "CPC1966Y" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "849-CPC1966Y" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/IXYS-Integrated-Circuits/CPC1966Y?qs=8uBHJDVwVqxNfAOiNv29Iw%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "CPC1966Y" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/cpc1966y/ixys" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X -LED 1 0 0 200 R 50 50 0 0 P
+X +LED 2 0 -100 200 R 50 50 0 0 P
+X AC_LOAD_1 3 0 -200 200 R 50 50 0 0 P
+X AC_LOAD_2 4 0 -300 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
